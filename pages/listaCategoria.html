@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="menu">
+        <div class="dropdown">
+            <span type="button" class="dropdown-button">Cadastros</span>
+            <div class="dropdown-content">
+                <a href="categoryList.html">Categorias</a>
+                <a href="listaProduto.html">Produtos</a>
+            </div>
+        </div>
+    </header>
+    <main class="content">
+        <div style="display: flex;justify-content: space-between;width: 90%;align-items: center">
+            <div style="width: 35%"><label>Id</label><input class="rounded-input" type="text"></div>
+            <div style="width: 35%"><label>Descrição</label><input class="rounded-input" type="text"></div>
+            <div style="    height:80%;align-self:flex-end;width: 10%">
+                <button style="width: 100%" class="primary-button">Buscar</button>
+            </div>
+            <div style="height:80%;align-self:flex-end;width: 10%"><a style="width: 100%"
+                    class="primary-button">Salvar</a></div>
+        </div>
+        <div style="width: 100%;background-color: white;margin-top: 1%;padding: 1%">
+            <table class="table-bordered">
+                <thead>
+                    <th>Id</th>
+                    <th>Descrição</th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>Laticínios</td>
+                        <td class="edit">Alterar</td>
+                        <td class="remove">Excluir</td>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Laticínios</td>
+                        <td class="edit">Alterar</td>
+                        <td class="remove">Excluir</td>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Laticínios</td>
+                        <td class="edit">Alterar</td>
+                        <td class="remove">Excluir</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer class="footer"></footer>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="dropdown">
+            <span type="button" class="dropdown-button">Cadastros</span>
+            <div class="dropdown-content">
+                <a href="listaCategoria.html">Categorias</a>
+                <a href="listaProduto.html">Produtos</a>
+            </div>
+        </div>
+    </header>
+    <main class="content">
+        <div style="width: 50%">
+            <form action="">
+                <div class="content-input" style="width: 100%"><label>Descrição</label><input class="rounded-input"
+                        type="text"></div>
+                <div class="content-input" style="width: 100%"><label>Categoria</label><br><select
+                        class="rounded-input">
+                        <option value="">Nenhum</option>
+                        <option value="">Laticínios</option>
+                        <option value="">Bebidas</option>
+                        <option value="">Doces</option>
+                        <option value="">Frutas</option>
+                    </select></div>
+                <div class="content-input" style="width: 100%"><label>Preço</label><input class="rounded-input"
+                        type="number"></div>
+                <div class="content-input" style="width: 100%"><label>Estoque</label><input class="rounded-input"
+                        type="number"></div>
+                <div class="content-input"
+                    style="margin-top:2%;width: 100%;display: flex;justify-content: space-between">
+                    <button class="primary-button">Salvar</button>
+                    <a href="listaProduto.html" class="danger-button">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer"></footer>
+</body>
+
+</html>
